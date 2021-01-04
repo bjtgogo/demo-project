@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bjtgogo/demo-project-react2021.git"
+    "url": "https://github.com/bjtgogo/demo-project.git"
   },
   "dependencies": {
     "jquery": "^3.5.1"
