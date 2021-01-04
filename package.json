@@ -5,15 +5,23 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bjtgogo/demo-project.git"
+    "url": "git+https://github.com/bjtgogo/demo-project.git"
   },
   "dependencies": {
     "jquery": "^3.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "express": "^4.17.1",
+    "webpack": "^5.11.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjtgogo/demo-project/issues"
+  },
+  "homepage": "https://github.com/bjtgogo/demo-project#readme"
 }
